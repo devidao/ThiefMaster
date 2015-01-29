@@ -1,0 +1,13 @@
+#eventsTable > thead > tr{
+	background: #EEE;
+}
+
+#eventsTable td{
+	border: 1px solid #EEE;
+	padding: 3px 5px;
+}
+
+#view{
+	border: 1px solid #EEE;
+	margin: 15px;
+}

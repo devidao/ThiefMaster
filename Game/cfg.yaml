@@ -1,0 +1,13 @@
+devMode: true
+currency: EUR
+lang: en
+
+mongodb:
+  path: localhost:27017/catalogem
+
+adminEmail: "Deividas <deivdasbag@gmail.com>"
+
+email:
+   host: 127.0.0.1
+
+accTid: 1294

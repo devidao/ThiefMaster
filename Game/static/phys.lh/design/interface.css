@@ -1,0 +1,187 @@
+p,h1,h2,h3,h4,h5,h6{
+	border:0;
+	margin:2px 1px;
+	padding:0;
+}
+
+ol,ul{
+	margin: 2px;
+}
+
+h1{
+	color: #555;
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+h2{
+	color: #2C61A7;
+}
+
+img{
+	margin:2px;
+}
+
+pre{
+	text-align:left;
+	margin:5px
+}
+
+table{
+	border-spacing: 0px 0px;
+}
+
+td{
+	vertical-align: middle;
+}
+
+ul{
+	padding-left:15px;
+	text-align:left;
+}
+
+a{
+	cursor:pointer;
+	text-decoration: none;
+	font-weight:bold;
+	color: #3077CC;
+	outline: none;
+	margin: 0 2px;
+	border:0;
+}
+
+a:hover{
+	color: #e57c00;
+}
+
+hr{
+	border:0;
+	border-bottom:1px solid #E5E5E5;
+	margin:3px;
+}
+
+input, .select, button, .button, textarea, .tip{
+	box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	font-family: arial,sans-serif;
+	
+	-webkit-transition: background-color 1s;
+	-moz-transition: background-color 1s;
+}
+
+input, .select, textarea{
+	display: inline-block;
+	margin: 2px;
+	padding: 5px;
+	outline: none;
+	background-color: #F7F7F7;
+	border: 1px solid #E4E4E4;
+	border-radius: 3px;
+	font-weight: bold;
+	font-size: 13px;
+	color: #555;
+}
+
+button, .button{
+	display: inline-block;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 4px 8px;
+	margin:1px;
+	font-size: 13px;
+	font-weight: 700;
+	border-radius: 2px;
+	vertical-align: middle;
+	height: 24px;
+	color: white;
+	background-color:#598ec2;
+	border:0;
+	-webkit-transition: background-color 0.5s;
+	-moz-transition: background-color 0.5s;
+}
+
+button:hover, .button:hover{
+	opacity:1;
+	background-color:#407db8;
+}
+
+.fcs{
+	background-color: rgba(10,10,10,0.4) !important;
+}
+
+button.active{
+	background-color: #1B8096 !important;
+}
+
+.l,.fl{
+	float: left;
+}
+
+.r,.fr{
+	float: right;
+}
+
+.pg{
+	display: none;
+}
+
+.tl{
+	text-align: left;
+}
+
+.tr{
+	text-align: right;
+}
+
+table.form{
+	margin: 10px auto;
+	text-shadow: 1px 1px 1px white;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+table.form td:first-child{
+	text-align: right;
+}
+
+table.form td:last-child{
+	font-size: 12px;
+	text-align: left;
+}
+
+table.form td[colspan]{
+	text-align: center;
+}
+
+#modal{
+	z-index: 95;
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000 url('x.png') no-repeat right top;
+	opacity: 0.7;
+}
+
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 98;
+	width: 200px;
+	height: 100px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding: 4px 2px;
+	border-radius: 4px;
+	border: 2px solid #1B3F63;
+	font-weight: bold;
+	text-align: center;
+	font-size: 13px;
+	color: black;
+	background: rgba(252, 252, 252, 0.9);
+}
